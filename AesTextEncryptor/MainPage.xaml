@@ -1,0 +1,28 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AesTextEncryptor.MainPage"
+             Title="AES Text Encryptor">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+
+        <!-- Text Input -->
+        <Entry x:Name="InputText" Placeholder="Enter text to encrypt" />
+
+        <!-- Encrypt Button -->
+        <Button Text="Encrypt" Clicked="OnEncryptClicked" />
+
+        <!-- Encrypted Result -->
+        <Label x:Name="EncryptedLabel" 
+               Text="Encrypted text will appear here" 
+               LineBreakMode="WordWrap" />
+
+        <!-- Decrypt Button -->
+        <Button Text="Decrypt" Clicked="OnDecryptClicked" />
+
+        <!-- Decrypted Result -->
+        <Label x:Name="DecryptedLabel" 
+               Text="Decrypted text will appear here" 
+               LineBreakMode="WordWrap" />
+
+    </VerticalStackLayout>
+</ContentPage>
