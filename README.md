@@ -18,4 +18,4 @@ A cross-platform mobile app built with .NET MAUI that encrypts and decrypts text
 3. Build and deploy to an Android device.
 
 ## Author
-Developed by [Your Name]
+Developed by Balavignesh B
